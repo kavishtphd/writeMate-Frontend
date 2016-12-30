@@ -5,7 +5,33 @@
 //  Created by Riddhi Maharana on 7/23/16.
 //  Copyright © 2016 Lakshay Maharana. All rights reserved.
 //
+import UIKit
+import Firebase
+import FBSDKCoreKit
 
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var window: UIWindow?
+    
+    
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        // Configure Firebase SDK
+       FIRApp.configure()
+        
+        // Configure Facebook SDK
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        return true
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        return FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
+    }
+    
+}
+
+
+/*
 import UIKit
 
 @UIApplicationMain
@@ -43,4 +69,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+*/

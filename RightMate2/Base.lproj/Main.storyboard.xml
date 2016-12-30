@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RightMate2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="writemate.png" translatesAutoresizingMaskIntoConstraints="NO" id="qyl-dd-MRm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftK-3c-QsU">
+                                <rect key="frame" x="128" y="440" width="64" height="72"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="sz8-oF-Nnb" kind="modal" id="y69-6t-FQP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="288"/>
+        </scene>
+        <!--Photo-->
+        <scene sceneID="maF-2N-HGt">
+            <objects>
+                <viewController id="sz8-oF-Nnb" customClass="Photo" customModule="RightMate2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pur-FB-JW4"/>
+                        <viewControllerLayoutGuide type="bottom" id="AJp-96-jPr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VCA-jO-Ocz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="writemate2.png" translatesAutoresizingMaskIntoConstraints="NO" id="aPj-v6-usC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cn-rw-RXr">
+                                <rect key="frame" x="62" y="194" width="77" height="59"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="selectImage" destination="sz8-oF-Nnb" eventType="touchUpInside" id="UMg-L8-xLa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQs-0I-hwF">
+                                <rect key="frame" x="118" y="375" width="85" height="73"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="SeeMessage" destination="sz8-oF-Nnb" eventType="touchUpInside" id="l0E-4p-49k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ng8-YA-Bud">
+                                <rect key="frame" x="204" y="188" width="57" height="59"/>
+                                <connections>
+                                    <segue destination="xdQ-Dz-HCO" kind="modal" id="wD0-XP-8w3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehH-b3-M2B">
+                                <rect key="frame" x="0.0" y="11" width="37" height="47"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="dXs-vm-eC1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="k7e-J2-AGT" kind="presentation" identifier="presentLabel" id="mc2-UM-xYa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXv-ar-Eh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="288"/>
+        </scene>
+        <!--Label View Controller-->
+        <scene sceneID="8f9-Dc-uFq">
+            <objects>
+                <viewController id="k7e-J2-AGT" customClass="OCRLabelViewController" customModule="RightMate2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dzx-iu-Y9h"/>
+                        <viewControllerLayoutGuide type="bottom" id="0TK-pa-u7v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eUC-Hl-9wE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsM-kG-BGG">
+                                <rect key="frame" x="28" y="12" width="30" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIc-mR-nzd">
+                                <rect key="frame" x="13" y="12" width="96" height="73"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="sz8-oF-Nnb" kind="modal" id="e81-2U-0F9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tl-Jl-PDq">
+                                <rect key="frame" x="13" y="76" width="295" height="484"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.61176470589999998" green="0.90980392160000001" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="OCRTextLabel" destination="3tl-Jl-PDq" id="caZ-No-WMT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQe-5n-lsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1224" y="288"/>
+        </scene>
+        <!--Record-->
+        <scene sceneID="bKb-TY-QZ6">
+            <objects>
+                <viewController id="xdQ-Dz-HCO" customClass="Record" customModule="RightMate2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gKq-45-QFn"/>
+                        <viewControllerLayoutGuide type="bottom" id="xMa-n9-bxW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lrP-cz-8BH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Record your lecture:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISc-ck-MID">
+                                <rect key="frame" x="45" y="40" width="248" height="110"/>
+                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noun_15406_cc.png" translatesAutoresizingMaskIntoConstraints="NO" id="fCf-TK-dop">
+                                <rect key="frame" x="110" y="201" width="100" height="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maI-kF-mLU">
+                                <rect key="frame" x="103" y="194" width="115" height="102"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="startRecording" destination="xdQ-Dz-HCO" eventType="touchUpInside" id="pst-o3-1eM"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stop-512.png" translatesAutoresizingMaskIntoConstraints="NO" id="deU-Hf-7v2">
+                                <rect key="frame" x="110" y="410" width="100" height="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbV-uG-7pe">
+                                <rect key="frame" x="82" y="404" width="156" height="112"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="finish" destination="xdQ-Dz-HCO" eventType="touchUpInside" id="38o-c0-biI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuW-Ey-KBi">
+                                <rect key="frame" x="32" y="20" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="sz8-oF-Nnb" kind="modal" id="xso-4b-K3K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.61176470589999998" green="0.90980392160000001" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4W3-Yy-kmR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1559" y="288"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="noun_15406_cc.png" width="700" height="700"/>
+        <image name="stop-512.png" width="512" height="512"/>
+        <image name="writemate.png" width="640" height="1136"/>
+        <image name="writemate2.png" width="640" height="1136"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="e81-2U-0F9"/>
+    </inferredMetricsTieBreakers>
+</document>

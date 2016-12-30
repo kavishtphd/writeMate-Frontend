@@ -12,9 +12,30 @@
 		6D0D42151D43E98600541F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0D42131D43E98600541F5B /* Main.storyboard */; };
 		6D0D42171D43E98600541F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0D42161D43E98600541F5B /* Assets.xcassets */; };
 		6D0D421A1D43E98600541F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0D42181D43E98600541F5B /* LaunchScreen.storyboard */; };
+		6D0D42221D43F95200541F5B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D42211D43F95200541F5B /* Photo.swift */; };
+		6D38006D1D440480007EAF32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D38006C1D440480007EAF32 /* GoogleService-Info.plist */; };
+		6D6312661D4545B4003FDEB0 /* OCRLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6312651D4545B4003FDEB0 /* OCRLabelViewController.swift */; };
+		6D8BBBA21D450FFB0048058B /* noun_15406_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8BBBA11D450FFB0048058B /* noun_15406_cc.png */; };
+		6D93DF201D4512E100451BAC /* Record-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D93DF1F1D4512E000451BAC /* Record-icon.png */; };
+		6D93DF221D45132C00451BAC /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93DF211D45132C00451BAC /* Record.swift */; };
+		6D93DF241D451F0100451BAC /* stop-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D93DF231D451F0100451BAC /* stop-512.png */; };
+		6DE27B6B1D444C07005586AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE27B6A1D444C07005586AA /* Message.swift */; };
+		6DE27B6D1D44842D005586AA /* bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B6C1D44842D005586AA /* bg@2x.jpg */; };
+		6DE27B701D4484DA005586AA /* ui_btn_cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B6E1D4484DA005586AA /* ui_btn_cam.png */; };
+		6DE27B711D4484DA005586AA /* ui_btn_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B6F1D4484DA005586AA /* ui_btn_save.png */; };
+		6DE27B731D448936005586AA /* blue_to_white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B721D448936005586AA /* blue_to_white.jpg */; };
+		6DE27B751D448C53005586AA /* appBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B741D448C53005586AA /* appBackground.png */; };
+		6DE27B771D448C81005586AA /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B761D448C81005586AA /* camera-icon.png */; };
+		6DE27B791D448D12005586AA /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B781D448D12005586AA /* images.jpg */; };
+		6DE27B7B1D449D72005586AA /* writemate.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B7A1D449D72005586AA /* writemate.png */; };
+		6DE27B7D1D44A3A7005586AA /* writemate2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B7C1D44A3A7005586AA /* writemate2.png */; };
+		6DE27B7F1D44A702005586AA /* writemate-backgroun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE27B7E1D44A702005586AA /* writemate-backgroun.png */; };
+		B9F293F9C13F3C3EA581BC01 /* Pods_RightMate2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9F766823764F0B7C1C880E /* Pods_RightMate2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A9F766823764F0B7C1C880E /* Pods_RightMate2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RightMate2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361561285381CD459F9DC3B9 /* Pods-RightMate2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RightMate2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RightMate2/Pods-RightMate2.debug.xcconfig"; sourceTree = "<group>"; };
 		6D0D420C1D43E98600541F5B /* RightMate2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightMate2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0D420F1D43E98600541F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D0D42111D43E98600541F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,25 @@
 		6D0D42161D43E98600541F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D0D42191D43E98600541F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D0D421B1D43E98600541F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0D42211D43F95200541F5B /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = ../Photo.swift; sourceTree = "<group>"; };
+		6D38006C1D440480007EAF32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D6312651D4545B4003FDEB0 /* OCRLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRLabelViewController.swift; sourceTree = "<group>"; };
+		6D8BBBA11D450FFB0048058B /* noun_15406_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_15406_cc.png; sourceTree = "<group>"; };
+		6D93DF1F1D4512E000451BAC /* Record-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Record-icon.png"; sourceTree = "<group>"; };
+		6D93DF211D45132C00451BAC /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Record.swift; path = ../Record.swift; sourceTree = "<group>"; };
+		6D93DF231D451F0100451BAC /* stop-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop-512.png"; sourceTree = "<group>"; };
+		6DE27B6A1D444C07005586AA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6DE27B6C1D44842D005586AA /* bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg@2x.jpg"; sourceTree = "<group>"; };
+		6DE27B6E1D4484DA005586AA /* ui_btn_cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui_btn_cam.png; sourceTree = "<group>"; };
+		6DE27B6F1D4484DA005586AA /* ui_btn_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui_btn_save.png; sourceTree = "<group>"; };
+		6DE27B721D448936005586AA /* blue_to_white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue_to_white.jpg; sourceTree = "<group>"; };
+		6DE27B741D448C53005586AA /* appBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appBackground.png; sourceTree = "<group>"; };
+		6DE27B761D448C81005586AA /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
+		6DE27B781D448D12005586AA /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		6DE27B7A1D449D72005586AA /* writemate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = writemate.png; sourceTree = "<group>"; };
+		6DE27B7C1D44A3A7005586AA /* writemate2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = writemate2.png; sourceTree = "<group>"; };
+		6DE27B7E1D44A702005586AA /* writemate-backgroun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "writemate-backgroun.png"; sourceTree = "<group>"; };
+		7039B00CDF880F0869BDFAA1 /* Pods-RightMate2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RightMate2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RightMate2/Pods-RightMate2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F293F9C13F3C3EA581BC01 /* Pods_RightMate2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6659FDD5B83FD42AC178E965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9F766823764F0B7C1C880E /* Pods_RightMate2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6D0D42031D43E98600541F5B = {
 			isa = PBXGroup;
 			children = (
+				6DE27B6A1D444C07005586AA /* Message.swift */,
 				6D0D420E1D43E98600541F5B /* RightMate2 */,
 				6D0D420D1D43E98600541F5B /* Products */,
+				8A5B8F4F029503932AF79446 /* Pods */,
+				6659FDD5B83FD42AC178E965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,40 @@
 		6D0D420E1D43E98600541F5B /* RightMate2 */ = {
 			isa = PBXGroup;
 			children = (
+				6D38006C1D440480007EAF32 /* GoogleService-Info.plist */,
 				6D0D420F1D43E98600541F5B /* AppDelegate.swift */,
 				6D0D42111D43E98600541F5B /* ViewController.swift */,
+				6D0D42211D43F95200541F5B /* Photo.swift */,
+				6D93DF211D45132C00451BAC /* Record.swift */,
+				6D6312651D4545B4003FDEB0 /* OCRLabelViewController.swift */,
 				6D0D42131D43E98600541F5B /* Main.storyboard */,
 				6D0D42161D43E98600541F5B /* Assets.xcassets */,
 				6D0D42181D43E98600541F5B /* LaunchScreen.storyboard */,
 				6D0D421B1D43E98600541F5B /* Info.plist */,
+				6DE27B7E1D44A702005586AA /* writemate-backgroun.png */,
+				6DE27B761D448C81005586AA /* camera-icon.png */,
+				6DE27B6C1D44842D005586AA /* bg@2x.jpg */,
+				6DE27B6E1D4484DA005586AA /* ui_btn_cam.png */,
+				6DE27B6F1D4484DA005586AA /* ui_btn_save.png */,
+				6DE27B721D448936005586AA /* blue_to_white.jpg */,
+				6DE27B741D448C53005586AA /* appBackground.png */,
+				6DE27B781D448D12005586AA /* images.jpg */,
+				6DE27B7A1D449D72005586AA /* writemate.png */,
+				6D8BBBA11D450FFB0048058B /* noun_15406_cc.png */,
+				6DE27B7C1D44A3A7005586AA /* writemate2.png */,
+				6D93DF1F1D4512E000451BAC /* Record-icon.png */,
+				6D93DF231D451F0100451BAC /* stop-512.png */,
 			);
 			path = RightMate2;
+			sourceTree = "<group>";
+		};
+		8A5B8F4F029503932AF79446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361561285381CD459F9DC3B9 /* Pods-RightMate2.debug.xcconfig */,
+				7039B00CDF880F0869BDFAA1 /* Pods-RightMate2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D0D421E1D43E98600541F5B /* Build configuration list for PBXNativeTarget "RightMate2" */;
 			buildPhases = (
+				4A0A6B707B48F7A511194DF0 /* [CP] Check Pods Manifest.lock */,
 				6D0D42081D43E98600541F5B /* Sources */,
 				6D0D42091D43E98600541F5B /* Frameworks */,
 				6D0D420A1D43E98600541F5B /* Resources */,
+				9DABA99C188A31818377E06F /* [CP] Embed Pods Frameworks */,
+				F4F08542943FA7A7DFD14A9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +177,7 @@
 				TargetAttributes = {
 					6D0D420B1D43E98600541F5B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G9G9B9H723;
 					};
 				};
 			};
@@ -123,19 +205,85 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D0D421A1D43E98600541F5B /* LaunchScreen.storyboard in Resources */,
+				6DE27B711D4484DA005586AA /* ui_btn_save.png in Resources */,
+				6D93DF241D451F0100451BAC /* stop-512.png in Resources */,
+				6DE27B731D448936005586AA /* blue_to_white.jpg in Resources */,
+				6D38006D1D440480007EAF32 /* GoogleService-Info.plist in Resources */,
 				6D0D42171D43E98600541F5B /* Assets.xcassets in Resources */,
+				6DE27B791D448D12005586AA /* images.jpg in Resources */,
+				6DE27B7B1D449D72005586AA /* writemate.png in Resources */,
+				6D93DF201D4512E100451BAC /* Record-icon.png in Resources */,
+				6DE27B7F1D44A702005586AA /* writemate-backgroun.png in Resources */,
+				6DE27B7D1D44A3A7005586AA /* writemate2.png in Resources */,
 				6D0D42151D43E98600541F5B /* Main.storyboard in Resources */,
+				6DE27B751D448C53005586AA /* appBackground.png in Resources */,
+				6DE27B771D448C81005586AA /* camera-icon.png in Resources */,
+				6DE27B701D4484DA005586AA /* ui_btn_cam.png in Resources */,
+				6D8BBBA21D450FFB0048058B /* noun_15406_cc.png in Resources */,
+				6DE27B6D1D44842D005586AA /* bg@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A0A6B707B48F7A511194DF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DABA99C188A31818377E06F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RightMate2/Pods-RightMate2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F08542943FA7A7DFD14A9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RightMate2/Pods-RightMate2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D0D42081D43E98600541F5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0D42221D43F95200541F5B /* Photo.swift in Sources */,
+				6DE27B6B1D444C07005586AA /* Message.swift in Sources */,
+				6D93DF221D45132C00451BAC /* Record.swift in Sources */,
 				6D0D42121D43E98600541F5B /* ViewController.swift in Sources */,
+				6D6312661D4545B4003FDEB0 /* OCRLabelViewController.swift in Sources */,
 				6D0D42101D43E98600541F5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -247,23 +395,33 @@
 		};
 		6D0D421F1D43E98600541F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361561285381CD459F9DC3B9 /* Pods-RightMate2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RightMate2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lakshay-Maharana.RightMate2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		6D0D42201D43E98600541F5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7039B00CDF880F0869BDFAA1 /* Pods-RightMate2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RightMate2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lakshay-Maharana.RightMate2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +444,7 @@
 				6D0D42201D43E98600541F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
